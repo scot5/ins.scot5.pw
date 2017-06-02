@@ -1,0 +1,47 @@
+body{
+    background: url("../images/background.jpg") no-repeat fixed;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+/*Row Settings*/
+.row{
+    background: #1a1a1a;
+    margin-top: 600px;
+    margin-bottom: 1em;
+    padding: 1em;
+}
+
+
+/*Typography settings*/
+h2{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1.7em;
+}
+
+h3{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 1.5em;
+}
+
+p{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+a{
+    color: #f53;
+}
+
+a:hover{
+    color: #f23;
+}
+
+a:visited{
+    color: #f53;
+}
