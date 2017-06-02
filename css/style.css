@@ -1,15 +1,57 @@
-body{
-    background: url("../images/background.jpg") no-repeat fixed;
+body, html, main {
+    height: 100%;
+    margin: 0;
+    position: relative;
+}
+
+footer{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background: #1a1a1a;
+    text-align: center;
+    vertical-align: middle;
+}
+footer p{
+    color: #a1a1a1;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    padding: 1em;
+    margin:0;
+}
+/*Image settings*/
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4{
+    position: relative;
+    opacity: .9;
+    background: no-repeat fixed center;
     background-size: cover;
-    overflow-x: hidden;
+
+}
+.bgimg-1 {
+    background-image: url("../images/background1.jpg");
+    min-height: 100%;
+}
+
+.bgimg-2 {
+    background-image: url("../images/background2.jpg");
+    min-height: 50%;
+}
+
+.bgimg-3 {
+    background-image: url("../images/background3.jpg");
+    min-height: 70%;
+}
+
+.bgimg-4 {
+    background-image: url("../images/background4.jpg");
+    background-position-y: 100px;
+    min-height: 40%;
 }
 
 /*Row Settings*/
-.row{
+.article{
     background: #1a1a1a;
-    margin-top: 600px;
-    margin-bottom: 1em;
-    padding: 1em;
+    padding: 3em 1em;
 }
 
 
@@ -44,4 +86,13 @@ a:hover{
 
 a:visited{
     color: #f53;
+}
+
+.container ul{
+    padding-top: 0.5em;
+}
+li{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #fff;
 }
